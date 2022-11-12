@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>REGISTER</title>
+        <style>
+            body{
+                background-color:#ececec; ;
+            }
+            .final{
+    border:1px solid black;
+    border:none;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    width:900px;
+    background-color: white;
+}
+            .button{
+                width :350px;
+                 height:50px;
+                background-color:#7328f6;
+                color:white;
+                font-family :"Arial";
+                font-size:20px;
+                border-radius :7px;
+                border:10px;
+            }
+            .button2{
+                text-align: center;
+                display:flex;
+                justify-content:center;
+                align-items: center;
+                width :200px;
+                 height:40px;
+                background-color:#16d55c;
+                color:white;
+                font-family :"Arial";
+                font-size:20px;
+                border-radius :9px;
+                border:10px;
+            }
+
+        </style>
+    </head>
+    
+
+<body>
+    <div>
+    <form method='POST'>
+  <center>
+    <img style="border-radius:8px;" src="https://github.com/vignesh-viggy-7/images/blob/main/newzz.png?raw=true"alt="NEWS TRACKER" width="350px" height="100px" ><br>
+    <h3></h3>
+    <div class="Final">
+        <p style="color: rgb(252, 88, 0);font-family: cursive;">Quick and easy ;)</p>
+        <input style="height:50px; width:350px;font-size:14pt;border-radius: 10px;padding-left: 9px;" name="username" type="text" placeholder="Username" >
+        <input style="height:50px; width:350px;font-size:14pt;border-radius: 10px;padding-left: 9px;"name='email' type="email" placeholder="Enter Email address" ><br>
+        <h1></h1><br>
+        <input style="height:50px; width:350px;font-size:14pt;border-radius: 10px;padding-left: 9px;" name="password"type="password" placeholder="Enter Password" >
+        <input style="height:50px; width:350px;font-size:14pt;border-radius: 10px;padding-left: 9px;"name="confirmPassword"type="password"  placeholder="Confirm Password" ><br>
+        <h1></h1><br>
+    
+    
+        <button class="button"><b>Create account</b></button>
+       
+        <p style="font-size:20px;font-family: monospace;color:rgb(217, 83, 0) ;"> Already have an Account?</p>
+        <a href="/login">
+            <div  class="button2">
+                <b>LOGIN!</b>     
+            </div>
+            
+        </a>
+        <div class="msg" style="font-family:monospace;color:red;font-size:20px;"> {{msg}}</div>
+    </div>   
+ </div>           
+    </center>
+    </form>
+</div>
+</body>
+</html>

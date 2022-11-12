@@ -1,0 +1,38 @@
+
+.button{
+    width :350px;
+    height:50px;
+    background-color:#16d55c;
+    color:white;
+    font-family :"Arial";
+    font-size:20px;
+    border-radius :7px;
+    border:10px;
+}
+.button2{
+    width :250px;
+    height:50px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#7328f6;
+    color:white;
+    font-family :"Arial";
+    font-size:18px;
+    border-radius :7px;
+    border:10px;
+}
+.final{
+    border:1px solid black;
+    border:none;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    width:350px;
+    background-color: white;
+}
+body{
+    background-color: 
+    #ececec;
+}
